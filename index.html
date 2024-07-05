@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Memo</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #noteInput {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Local Memo: Save Notes Locally</h1>
+
+        <form id="noteForm" class="mt-5 mb-4">
+            <div class="form-group">
+                <textarea id="noteInput" class="form-control" rows="3" placeholder="Enter your note"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Note</button>
+            <a class="text-decoration-none m-3" href="http://github.com/nitin-is-me/">Link to my github account</a>
+        </form>
+
+        <div id="notesContainer">
+        </div>
+
+        <h2 id="noNotesMessage" class="lead mt-3" style="display: none;">
+            No notes available, start by creating one!
+        </h2>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
