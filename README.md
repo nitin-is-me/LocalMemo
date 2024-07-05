@@ -6,4 +6,4 @@ Local Memo, is a note taking web app, but unlike <a href="https://github.com/nit
   <li>It's just coded in HTML, a bit of css with BootStrap and Vanilla JavaScript</li>
 </ul>
 <br>
-Local Memo is being hosted on <a href="https://nitin-is-me.github.io/LocalMemo">Github</a>, and <a href="localmemo.vercel.app">Vercel</a>.
+Local Memo is being hosted on <a href="https://nitin-is-me.github.io/LocalMemo">Github</a>, and <a href="localmemo-main.vercel.app">Vercel</a>.
